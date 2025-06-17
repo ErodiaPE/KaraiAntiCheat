@@ -1,0 +1,6 @@
+name: KaraiAntiCheat
+version: 1.0.0
+api: 5.0.0
+author: Zwuiix
+description: ReaperAnticheat's Fork
+main: KaraiAntiCheat\KaraiPlugin
