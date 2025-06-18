@@ -154,9 +154,6 @@ class KaraiClientData
     public string $ThirdPartyName;
 
     /** @required */
-    public bool $ThirdPartyNameOnly;
-
-    /** @required */
     public bool $TrustedSkin;
 
     /** @required */
