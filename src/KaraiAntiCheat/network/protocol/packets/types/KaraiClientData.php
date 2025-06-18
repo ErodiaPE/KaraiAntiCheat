@@ -12,6 +12,9 @@ class KaraiClientData
     public string $Waterdog_XUID;
 
     /** @required */
+    public bool $Waterdog_Auth;
+
+    /** @required */
     public string $Waterdog_IP;
 
     /**
