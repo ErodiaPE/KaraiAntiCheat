@@ -2,10 +2,6 @@
 
 namespace KaraiAntiCheat\network\protocol\packets\types;
 
-use pocketmine\network\mcpe\protocol\types\login\ClientDataAnimationFrame;
-use pocketmine\network\mcpe\protocol\types\login\ClientDataPersonaPieceTintColor;
-use pocketmine\network\mcpe\protocol\types\login\ClientDataPersonaSkinPiece;
-
 class KaraiClientData
 {
     /** @required */
@@ -18,7 +14,7 @@ class KaraiClientData
     public string $Waterdog_IP;
 
     /**
-     * @var ClientDataAnimationFrame[]
+     * @var \pocketmine\network\mcpe\protocol\types\login\ClientDataAnimationFrame[]
      * @required
      */
     public array $AnimatedImageData;
@@ -86,7 +82,7 @@ class KaraiClientData
     public bool $OverrideSkin;
 
     /**
-     * @var ClientDataPersonaSkinPiece[]
+     * @var \pocketmine\network\mcpe\protocol\types\login\ClientDataPersonaSkinPiece[]
      * @required
      */
     public array $PersonaPieces;
@@ -95,7 +91,7 @@ class KaraiClientData
     public bool $PersonaSkin;
 
     /**
-     * @var ClientDataPersonaPieceTintColor[]
+     * @var \pocketmine\network\mcpe\protocol\types\login\ClientDataPersonaPieceTintColor[]
      * @required
      */
     public array $PieceTintColors;
